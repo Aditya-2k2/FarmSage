@@ -39,11 +39,11 @@ FarmSage is a smart and intuitive crop prediction web application that recommend
 
 ## 📸 Screenshots
 
-### 🏠 Homepage
+### 🏠 Home Page
 
 ![Homepage](screenshots/homepage.jpeg)
 
-### 🌿 Crop Predictor
+### 🌿 Crop Predictor Page
 
 ![Crop Predictor](screenshots/predictor1.jpeg)
 ![Crop Predictor](screenshots/predictor2.jpeg)
