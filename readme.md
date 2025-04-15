@@ -1,9 +1,3 @@
-Absolutely bro 🔥  
-Here’s your complete, ready-to-copy **`README.md`** content — no extra formatting, no markdown mess-ups. Just **copy and paste** into your `README.md` file.
-
----
-
-```markdown
 # 🌾 FarmSage - AI Crop Recommendation System
 
 FarmSage is a smart and intuitive crop prediction web application that recommends the most suitable crops based on soil nutrient levels, water content, temperature, and rainfall. Powered by machine learning (XGBoost) and built with a modern React frontend and Flask backend.
@@ -116,11 +110,3 @@ npm run dev
 
 This project is licensed under the [MIT License](LICENSE).
 ```
-
----
-
-### ✅ To Use:
-1. Save it as `README.md` in the root of your project folder.
-2. Add any screenshots to a `/screenshots` folder if you want visuals.
-
-Want me to generate a LICENSE file or GitHub tags next? 💻📦
