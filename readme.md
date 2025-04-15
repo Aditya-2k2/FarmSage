@@ -1,4 +1,4 @@
-# 🌾 FarmSage - AI Crop Recommendation System
+# 🌾 FarmSage - Crop Recommendation System
 
 FarmSage is a smart and intuitive crop prediction web application that recommends the most suitable crops based on soil nutrient levels, water content, temperature, and rainfall. Powered by machine learning (XGBoost) and built with a modern React frontend and Flask backend.
 
@@ -39,10 +39,8 @@ FarmSage is a smart and intuitive crop prediction web application that recommend
 
 ## 📸 Screenshots
 
-> Add screenshots to the `screenshots/` folder and link them here
-
 ```
-./screenshots/homepage.png
+./screenshots/HomePage.jpeg
 ./screenshots/crop_predictor.png
 ```
 
