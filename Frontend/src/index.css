@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* src/index.css or src/fonts.css */
+@font-face {
+  font-family: "Florisha";
+  src: url("./assets/fonts/florisha.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Boruna";
+  src: url("./assets/fonts/boruna.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}

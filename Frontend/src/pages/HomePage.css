@@ -1,0 +1,24 @@
+
+/* src/pages/HomePage.css */
+
+.homepage-container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../assets/field_image.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+} */
