@@ -26,8 +26,8 @@ FarmSage is a smart and intuitive crop prediction web application that recommend
 ## 🧪 How It Works
 
 1. User inputs values for:
-   - Macronutrients (N, P, K)
-   - Secondary nutrients (S, Ca, Mg)
+   - Primary Macronutrients (N, P, K)
+   - Secondary Macronutrients (S, Ca, Mg)
    - Micronutrients (Fe, Zn, etc.)
    - Climate & Soil: Water, Organic Matter, Temperature (°C), Rainfall (cm)
 
