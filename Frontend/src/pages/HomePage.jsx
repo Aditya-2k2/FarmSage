@@ -11,7 +11,6 @@ const HomePage = () => {
           elevation={10}
           sx={{
             p: { xs: 3, sm: 5 },
-            backgroundColor: "rgba(255, 255, 255, 0.92)",
             textAlign: "center",
             borderRadius: 3,
           }}

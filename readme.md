@@ -25,6 +25,8 @@ FarmSage is a smart and intuitive crop prediction web application that recommend
 
 ## 🧪 How It Works
 
+### 🌿 Crop Prediction
+
 1. User inputs values for:
    - Primary Macronutrients (N, P, K)
    - Secondary Macronutrients (S, Ca, Mg)
@@ -37,16 +39,37 @@ FarmSage is a smart and intuitive crop prediction web application that recommend
 
 ---
 
+### 💧 Fertilizer Prediction
+
+1. User inputs values for:
+   - Crop name
+   - Lower and Upper bounds for all nutrients (N, P, K, Ca, Mg, S, Fe, Mn, Cu, B, Mo, Zn)
+   - Climate & Soil: Soil pH, Rainfall (cm), Humidity (%), Soil Moisture (%), Water Holding Capacity (%)
+
+2. The Flask backend loads the trained `fertilizer_classifier.json` model and encoders.
+
+3. The recommended fertilizer is returned and displayed on the frontend. Input fields are auto-cleared after submission.
+
+---
+
 ## 📸 Screenshots
 
 ### 🏠 Home Page
 
-![Homepage](screenshots/homepage.jpg)
+![Homepage](screenshots/homepage.jpeg)
 
 ### 🌿 Crop Predictor Page
 
 ![Crop Predictor](screenshots/predictor1.jpeg)
 ![Crop Predictor](screenshots/predictor2.jpeg)
+
+
+### 🌿 Fertilizer Predictor Page
+
+![Fertilizer Predictor](screenshots/Fertilizer1.jpeg)
+![Fertilizer Predictor](screenshots/Fertilizer2.jpeg)
+![Fertilizer Predictor](screenshots/Fertilizer3.jpeg)
+
 
 ---
 
@@ -57,10 +80,9 @@ FarmSage/
 ├── Backend/
 │   ├── app.py
 │   ├── predictor.py
+│   ├── fertilizer_predictor.py
 │   ├── model_trainer.py
-│   └── Models/
-│       ├── xgb_crop_model.pkl
-│       └── crop_label_binarizer.pkl
+│   └── Models/      
 ├── Frontend/
 │   ├── src/
 │   │   ├── components/
@@ -95,7 +117,6 @@ npm run dev
 
 ## 🧠 Future Enhancements
 
-- 🌾 Fertilizer Recommendation Module
 - 🐛 Plant Disease Detection using leaf images
 - 🛰️ Satellite & IoT-based crop monitoring
 - 🌐 Language support for multilingual farmers
