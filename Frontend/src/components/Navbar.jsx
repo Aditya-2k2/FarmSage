@@ -15,7 +15,8 @@ import GrassIcon from '@mui/icons-material/Grass';
 
 const pages = [
   { name: 'Home', path: '/' },
-  { name: 'Crop Predictor', path: '/predictor' }
+  { name: 'Crop Predictor', path: '/predictor' },
+  { name: 'Fertilizer Predictor', path: '/fertilizer-predictor' },
 ];
 
 function Navbar() {

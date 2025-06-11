@@ -59,6 +59,17 @@ const HomePage = () => {
               Go to Crop Predictor
             </Button>
           </Box>
+          <Box mt={4}>
+            <Button
+              variant="contained"
+              color="success"
+              size="large"
+              component={Link}
+              to="/fertilizer-predictor"
+            >
+              Go to Fertilizer Predictor
+            </Button>
+          </Box>
         </Paper>
       </Container>
     </div>

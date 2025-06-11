@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import HomePage from './pages/HomePage';
 import CropPredictorPage from './pages/CropPredictorPage';
+import FertilizerPredictorPage from './pages/FertilizerPredictorPage';
 import "./App.css";
 
 /* import '@fontsource/roboto/300.css';
@@ -21,6 +22,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/predictor" element={<CropPredictorPage />} />
+        <Route path="/fertilizer-predictor" element={<FertilizerPredictorPage />} />
       </Routes>
     </Router>
   );
